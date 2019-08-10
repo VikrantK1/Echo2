@@ -1,0 +1,28 @@
+<RelativeLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:padding="13dp"
+                android:background="#ffffff"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content"
+              android:text="Sack to Change Song"
+              android:textStyle="bold"
+              android:textSize="20sp"
+              android:textColor="#212121"
+              android:id="@+id/sackToChange"
+              android:layout_marginLeft="20dp"
+              android:layout_height="wrap_content"/>
+    <Switch android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:id="@+id/SwitchSack"
+            android:backgroundTint="#212121"
+
+            android:layout_height="wrap_content"/>
+    <View android:layout_width="match_parent"
+          android:background="#bdbdbd"
+          android:layout_below="@+id/sackToChange"
+          android:layout_marginTop="25dp"
+          android:layout_height="2dp"/>
+
+</RelativeLayout>
